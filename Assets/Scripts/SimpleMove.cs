@@ -1,44 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class SimpleMove : MonoBehaviour
 {
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 10f;
+
     private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
+    private CinemachineFreeLook freeLookCam;
 
     void Start()
     {
-        controller = gameObject.GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
+        freeLookCam = FindObjectOfType<CinemachineFreeLook>();
     }
 
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        if (direction.magnitude >= 0.1f)
         {
-            playerVelocity.y = 0f;
+            // Obtenemos la orientación de la cámara en el eje Y
+            float camYRotation = freeLookCam.transform.rotation.eulerAngles.y;
+            // Convertimos la orientación de la cámara a una rotación en quaterniones
+            Quaternion camRotation = Quaternion.Euler(0f, camYRotation, 0f);
+            // Rotamos la dirección del personaje en función de la orientación de la cámara
+            direction = camRotation * direction;
+            // Rotamos el personaje para que mire en la dirección de la cámara
+            transform.rotation = Quaternion.Lerp(transform.rotation, camRotation, rotationSpeed * Time.deltaTime);
         }
 
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
-        {
-            gameObject.transform.forward = move;
-        }
-
-        // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+        controller.Move(direction * moveSpeed * Time.deltaTime);
     }
 }
