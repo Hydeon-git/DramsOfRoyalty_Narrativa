@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
+{    
     private CharacterController characterController;
     private Animator animator;
 
+    [Header("Character Movement")]
     public Transform cam;
-
     public float playerSpeed;
-
     public float playerRotationSmoothTime;
-    private float turnSmoothVelocity;
+
+    private float turnSmoothVelocity;   
 
     private void Start()
     {
@@ -25,6 +25,9 @@ public class PlayerMovement : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        Vector3 gravity = Physics.gravity;
+        characterController.Move(gravity * Time.deltaTime);
 
         if (direction.magnitude >= 0.1f)
         {
@@ -44,5 +47,5 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("isMoving", false);
         }
-    }
+    }   
 }
