@@ -23,6 +23,17 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
+        //para desbloquear el raton y poder contestar.
+         if (Input.GetKey(KeyCode.LeftShift))
+         {
+             Cursor.lockState = CursorLockMode.Confined;
+         }
+         else
+         {
+             Cursor.lockState = CursorLockMode.Locked;
+         }
+
+        
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 

@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2651529246426614909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 84a33d5a-4993-4879-b920-a3ddb725f58f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Arrestado.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 582
+    y: 244
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-520541499004669233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 26d45e70-bc52-4cb9-97ec-1d6f17b01324
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Que pasa tonto
+  children:
+  - 84a33d5a-4993-4879-b920-a3ddb725f58f
+  rect:
+    serializedVersion: 2
+    x: 332
+    y: 244
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a78180006a5242b7504a1ca1ffd73, type: 3}
+  m_Name: SoldierDialogue_1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8330089413896601544}
+  - {fileID: -520541499004669233}
+  - {fileID: 743914166901459406}
+  - {fileID: -2651529246426614909}
+  - {fileID: 242811306106234304}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &242811306106234304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Mu bien, aqu\xED quieto, es como si algo impidiera que me moviese..."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 587
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &743914166901459406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ada9de73-db47-4b13-9801-d969d5b8e0c1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Hola, \xBFqu\xE9 tal?"
+  children:
+  - 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
+  rect:
+    serializedVersion: 2
+    x: 337
+    y: 48
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8330089413896601544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 81aea1a5-eb5b-4041-aee4-d8933cf761f9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hola, figura.
+  children:
+  - 26d45e70-bc52-4cb9-97ec-1d6f17b01324
+  - ada9de73-db47-4b13-9801-d969d5b8e0c1
+  rect:
+    serializedVersion: 2
+    x: 80
+    y: 139
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 

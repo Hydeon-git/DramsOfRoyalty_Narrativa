@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RPG.Dialogue;
+using UnityEditor;
 
 public class AIConversant : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class AIConversant : MonoBehaviour
     }
     private void Update()
     {
+       
         if (dialogue == null)
         {
             return;
@@ -29,6 +31,8 @@ public class AIConversant : MonoBehaviour
             _startedDialogue = true;
 
         }
+
+        
     }
 
     public string GetName()
