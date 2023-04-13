@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5787489469094442384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 1322af6b-5e9f-44a7-abd5-b9ceb09acc55
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Muy bien.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 331
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-994589412194676962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 04a491a8-fc42-4d08-becf-d99f4d1e4e2d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Muy mal.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a78180006a5242b7504a1ca1ffd73, type: 3}
+  m_Name: Dialogue_1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 612755102673506757}
+  - {fileID: -994589412194676962}
+  - {fileID: -5787489469094442384}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &612755102673506757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: cf315223-6e38-4460-844d-09af2a728b55
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Hola, qu\xE9 tal?"
+  children:
+  - 04a491a8-fc42-4d08-becf-d99f4d1e4e2d
+  - 1322af6b-5e9f-44a7-abd5-b9ceb09acc55
+  rect:
+    serializedVersion: 2
+    x: 81
+    y: 247.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
