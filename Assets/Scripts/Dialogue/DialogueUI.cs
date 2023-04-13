@@ -26,6 +26,7 @@ namespace RPG.UI
             nextButton.onClick.AddListener(() => playerConversant.Next()); //añadimos la funcion sin los aprentesis para q no devuelva nada Sustituye a void NEXT
             exitButton.onClick.AddListener(() => playerConversant.Quit());
             UpdateUI();
+            
         }
 
         /*
@@ -48,11 +49,13 @@ namespace RPG.UI
             if(playerConversant.IsChoosing())
             {
                 BuildChoiceList();
+                
             }
             else
             {
                 aiText.text = playerConversant.GetText();
                 nextButton.gameObject.SetActive(playerConversant.HasNext());
+                Debug.Log("Se ha activado el next Button");
             }
             
         }

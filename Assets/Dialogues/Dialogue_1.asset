@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5787489469094442384
+--- !u!114 &-3000402258423723314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,38 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 1322af6b-5e9f-44a7-abd5-b9ceb09acc55
+  m_Name: 0cb828b8-5331-47ca-ad53-4e405a4a20fe
   m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: Muy bien.
+  isPlayerSpeaking: 0
+  text: ewfwf
   children: []
   rect:
     serializedVersion: 2
-    x: 339
-    y: 331
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-994589412194676962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 04a491a8-fc42-4d08-becf-d99f4d1e4e2d
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: Muy mal.
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 342
-    y: 143
+    x: 312
+    y: 257
     width: 200
     height: 100
   onEnterAction: 
@@ -60,8 +37,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 612755102673506757}
-  - {fileID: -994589412194676962}
-  - {fileID: -5787489469094442384}
+  - {fileID: 9088085878361959797}
+  - {fileID: -3000402258423723314}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &612755102673506757
 MonoBehaviour:
@@ -75,15 +52,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
   m_Name: cf315223-6e38-4460-844d-09af2a728b55
   m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
+  isPlayerSpeaking: 1
   text: "Hola, qu\xE9 tal?"
   children:
-  - 04a491a8-fc42-4d08-becf-d99f4d1e4e2d
-  - 1322af6b-5e9f-44a7-abd5-b9ceb09acc55
+  - 309eb243-20da-4454-839c-48fab74b9406
+  - 0cb828b8-5331-47ca-ad53-4e405a4a20fe
   rect:
     serializedVersion: 2
-    x: 81
-    y: 247.00002
+    x: 68
+    y: 149
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &9088085878361959797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 309eb243-20da-4454-839c-48fab74b9406
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: sfaf
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 320
+    y: 150
     width: 200
     height: 100
   onEnterAction: 

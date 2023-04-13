@@ -14,13 +14,13 @@ namespace RPG.Dialogue
         [SerializeField]
         private Vector2 newNodeOffset = new Vector2(250,0);
 
-#if UNITY_EDITOR
+
         private void Awake()
         {
             OnValidate();
             
         }
-#endif
+
         private void OnValidate()
         {
             nodeLookup.Clear();
