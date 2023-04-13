@@ -11,6 +11,8 @@ public class AIConversant : MonoBehaviour
     private GameObject _player;
     bool _startedDialogue = false;
     private PlayerConversant _playerConversant;
+    [SerializeField] private bool inRangeConversant = false;
+    [SerializeField] private GameObject pressToTalk;
 
     private void Start()
     {
@@ -25,7 +27,7 @@ public class AIConversant : MonoBehaviour
         {
             return;
         }
-        if (Input.GetMouseButtonDown(0) && _startedDialogue == false)
+        if (Input.GetKeyDown(KeyCode.F) && _startedDialogue == false && inRangeConversant)
         {
             _playerConversant.StartDialogue(this, dialogue);
             _startedDialogue = true;
@@ -35,6 +37,23 @@ public class AIConversant : MonoBehaviour
         
     }
 
+
     public string GetName()
     { return conversantName; }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player"){
+            inRangeConversant = true;
+            pressToTalk.SetActive(true);
+        }
+        
+    }
+
+    private void OnTriggerExit(Collider other){
+        if(other.tag == "Player"){
+            inRangeConversant = false;
+            pressToTalk.SetActive(false);
+        }
+    }
 }
