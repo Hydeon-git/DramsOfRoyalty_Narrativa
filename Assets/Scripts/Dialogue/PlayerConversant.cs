@@ -24,7 +24,11 @@ namespace RPG.Dialogue
             currentConversant = newConversant;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.GetRootNode();
+            Debug.Log(currentConversant);
+            Debug.Log(currentDialogue);
+            Debug.Log(currentNode);
             TriggerEnterAction();
+
             onConversationUpdated(); //decimos q se ha actualizado e informamos a los q se han suscrito
             
         }
