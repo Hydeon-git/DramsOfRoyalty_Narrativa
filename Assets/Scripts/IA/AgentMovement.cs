@@ -28,6 +28,7 @@ public class AgentMovement : MonoBehaviour
         {
             SetNewRandomDestination();
         }
+        
     }
 
     void SetNewRandomDestination()
@@ -40,7 +41,7 @@ public class AgentMovement : MonoBehaviour
         Vector3 finalPosition = hit.position;
 
         navAgent.SetDestination(finalPosition);
-
+        gameObject.GetComponent<Animator>().SetBool("isMoving", true);
         timer = 0;
     }
 }
