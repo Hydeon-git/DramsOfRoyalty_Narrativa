@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "Mu bien, aqu\xED quieto, es como si algo impidiera que me moviese..."
+  text: Puedes ir a cortar madera. Habla con el soldado terco.
   children: []
   rect:
     serializedVersion: 2
@@ -88,7 +88,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: 
+  onExitAction: GiveQuest
 --- !u!114 &743914166901459406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: ada9de73-db47-4b13-9801-d969d5b8e0c1
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "Hola, \xBFqu\xE9 tal?"
+  text: "Hola, \xBFqu\xE9 tal? \xBFQu\xE9 puedo hacer?"
   children:
   - 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
   rect:
@@ -132,8 +132,8 @@ MonoBehaviour:
   - ada9de73-db47-4b13-9801-d969d5b8e0c1
   rect:
     serializedVersion: 2
-    x: 80
-    y: 139
+    x: 58
+    y: 140
     width: 200
     height: 100
   onEnterAction: 

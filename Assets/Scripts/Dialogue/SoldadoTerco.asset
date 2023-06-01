@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5641727044857334689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 8ec131fa-fc7d-4f0d-94b3-48148aae783d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ah, si, coge madera
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 619
+    y: 238
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteQuest
+--- !u!114 &-2883543925674352111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 239da755-4848-4584-98a9-895f9ccfa1a1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hola, amigo.
+  children:
+  - 7a225fb7-a264-4fa8-bd05-c9a03e7675d1
+  rect:
+    serializedVersion: 2
+    x: 125
+    y: 238
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a78180006a5242b7504a1ca1ffd73, type: 3}
+  m_Name: SoldadoTerco
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2883543925674352111}
+  - {fileID: 2193374641096310428}
+  - {fileID: -5641727044857334689}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2193374641096310428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 7a225fb7-a264-4fa8-bd05-c9a03e7675d1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Que tal me han mandado hablar contigo, sobre la madera
+  children:
+  - 8ec131fa-fc7d-4f0d-94b3-48148aae783d
+  rect:
+    serializedVersion: 2
+    x: 369
+    y: 238
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 

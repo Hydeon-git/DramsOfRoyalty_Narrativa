@@ -126,7 +126,7 @@ namespace RPG.Dialogue
 
         private void TriggerExitAction()
         {
-            if (currentNode != null && currentNode.GetOnExitAction() != "")
+            if (currentNode != null)
             {
                 TriggerAction(currentNode.GetOnExitAction());
             }
