@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,11 +12,15 @@ public class PlayerMovement : MonoBehaviour
     public Transform cam;
     public float playerSpeed;
     public float playerRotationSmoothTime;
+    public CinemachineFreeLook cinemachineFreeLook;
 
-    private float turnSmoothVelocity;   
+    private float turnSmoothVelocity;
+
+    public bool _canMove = true;
 
     private void Start()
     {
+        cinemachineFreeLook = FindObjectOfType<CinemachineFreeLook>();
         Cursor.lockState = CursorLockMode.Locked;
 
         characterController = this.GetComponent<CharacterController>();
@@ -27,12 +32,17 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Cursor.lockState = CursorLockMode.Confined;
-            //TODO no mover la camara
+            cinemachineFreeLook.gameObject.SetActive(false);
+            animator.SetBool("isMoving", false);
+            _canMove = false;
         }
         else
         {
             Cursor.lockState = CursorLockMode.Locked;
+            cinemachineFreeLook.gameObject.SetActive(true);
+            _canMove = true;
         }
+        if(!_canMove) return;
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
