@@ -11,6 +11,8 @@ public class AgentMovement : MonoBehaviour
 
     private NavMeshAgent navAgent;
 
+    private bool isTalking = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class AgentMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(isTalking) return;
         timer += Time.deltaTime;
 
         // Si el agente ha llegado a su destino o ha pasado demasiado tiempo en un punto, asigna un nuevo destino
@@ -43,5 +46,17 @@ public class AgentMovement : MonoBehaviour
         navAgent.SetDestination(finalPosition);
         gameObject.GetComponent<Animator>().SetBool("isMoving", true);
         timer = 0;
+    }
+
+    public void StopToTalk()
+    {
+        isTalking = true;
+        gameObject.GetComponent<Animator>().SetBool("isMoving", false);
+        navAgent.SetDestination(transform.position);
+    }
+
+    public void StartWalking()
+    {
+        isTalking = false;
     }
 }

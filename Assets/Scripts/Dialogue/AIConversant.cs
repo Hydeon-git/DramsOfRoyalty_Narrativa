@@ -13,12 +13,14 @@ public class AIConversant : MonoBehaviour
     private PlayerConversant _playerConversant;
     [SerializeField] private bool inRangeConversant = false;
     [SerializeField] private GameObject pressToTalk;
+    private AgentMovement _agentMovement;
 
     private void Start()
     {
        
         _player = GameObject.FindGameObjectWithTag("Player");
         _playerConversant = _player.GetComponent<PlayerConversant>();
+        _agentMovement = GetComponent<AgentMovement>();
     }
     private void Update()
     {
@@ -31,6 +33,7 @@ public class AIConversant : MonoBehaviour
         {
             _playerConversant.StartDialogue(this, dialogue);
             _startedDialogue = true;
+            
 
         }
 
@@ -46,6 +49,8 @@ public class AIConversant : MonoBehaviour
         if(other.tag == "Player"){
             inRangeConversant = true;
             pressToTalk.SetActive(true);
+            if(_agentMovement!=null)
+                _agentMovement.StopToTalk();
         }
         
     }
@@ -54,6 +59,8 @@ public class AIConversant : MonoBehaviour
         if(other.tag == "Player"){
             inRangeConversant = false;
             pressToTalk.SetActive(false);
+            if(_agentMovement!=null)
+                _agentMovement.StartWalking();
         }
     }
 }
