@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Cursor.lockState = CursorLockMode.Confined;
+            //TODO no mover la camara
         }
         else
         {
