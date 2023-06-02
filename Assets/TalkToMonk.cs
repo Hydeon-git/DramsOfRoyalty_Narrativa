@@ -12,6 +12,14 @@ public class TalkToMonk : MonoBehaviour
     private GameObject gptChat; 
     [SerializeField]
     private TMP_Text textIA;
+
+    [SerializeField] private PlayerMovement _playerMovement;
+
+    private void Start()
+    {
+        _playerMovement = FindObjectOfType<PlayerMovement>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         text_talk.SetActive(true);
@@ -24,6 +32,7 @@ public class TalkToMonk : MonoBehaviour
             {
                 gptChat.SetActive(true);
                 text_talk.SetActive(false);
+                _playerMovement.CannotMove();
             }
         }
     }

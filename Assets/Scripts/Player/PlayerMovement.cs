@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private float turnSmoothVelocity;
 
     public bool _canMove = true;
+    public bool isTalking = false;
 
     private void Start()
     {
@@ -40,7 +41,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
             cinemachineFreeLook.gameObject.SetActive(true);
-            _canMove = true;
+            if(!isTalking)
+                _canMove = true;
         }
         if(!_canMove) return;
 
@@ -77,5 +79,17 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("isMoving", false);
             }
         }        
-    }   
+    }
+
+    public void CanMoveCharacter()
+    {
+        _canMove = true;
+        isTalking = false;
+    }
+
+    public void CannotMove()
+    {
+        _canMove = false;
+        isTalking = true;
+    }
 }
