@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 84a33d5a-4993-4879-b920-a3ddb725f58f
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Limpiar arma
+  text: Cuida tu lenguaje.
   children: []
   rect:
     serializedVersion: 2
-    x: 560
-    y: 259
+    x: 562
+    y: 262
     width: 200
     height: 100
   onEnterAction: 
@@ -41,8 +41,8 @@ MonoBehaviour:
   - 84a33d5a-4993-4879-b920-a3ddb725f58f
   rect:
     serializedVersion: 2
-    x: 332
-    y: 244
+    x: 310
+    y: 252
     width: 200
     height: 100
   onEnterAction: 
@@ -107,8 +107,8 @@ MonoBehaviour:
   - 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
   rect:
     serializedVersion: 2
-    x: 337
-    y: 48
+    x: 335
+    y: 51
     width: 200
     height: 100
   onEnterAction: 
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 81aea1a5-eb5b-4041-aee4-d8933cf761f9
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Hola, figura.
+  text: 'Hola, figura. '
   children:
   - 26d45e70-bc52-4cb9-97ec-1d6f17b01324
   - ada9de73-db47-4b13-9801-d969d5b8e0c1

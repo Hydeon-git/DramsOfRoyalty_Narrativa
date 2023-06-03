@@ -33,7 +33,7 @@ public class AIConversant : MonoBehaviour
         {
             _playerConversant.StartDialogue(this, dialogue);
             _startedDialogue = true;
-            
+            pressToTalk.SetActive(false);
 
         }
 
@@ -61,6 +61,9 @@ public class AIConversant : MonoBehaviour
             pressToTalk.SetActive(false);
             if(_agentMovement!=null)
                 _agentMovement.StartWalking();
+
+            _startedDialogue = false;
         }
     }
+    
 }

@@ -1,0 +1,548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9121743939748346000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 75a4f8da-1672-49d0-93e7-279f825e3ff3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Mi sue\xF1o desde peque\xF1ito ha sido otro. Pero nac\xED con este cuerpo
+    y ya sabes... Soldado."
+  children:
+  - 035fa099-31c2-4199-8580-6fcae0d7ccf8
+  rect:
+    serializedVersion: 2
+    x: 1145
+    y: 336
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8046501734294633572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ac69bbaa-30ac-49c5-9468-b68bbbf0f695
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFY por qu\xE9 no lo haces?"
+  children:
+  - 14b00290-635d-4a4a-a059-df934c409d4b
+  rect:
+    serializedVersion: 2
+    x: 842
+    y: 104
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7777226143633973862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 91b55511-55a2-4522-a1c1-8fe386fc54a1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Habl\xE9 con el monje y me dijo que me conformara. Maldito pedante."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2121
+    y: 406
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7734313782363748603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: f45d4df5-2e1c-4bf3-8105-89997abdc215
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Muy buenas, Channah. \xBFQu\xE9 tal?"
+  children:
+  - b1bc165c-18e8-4ec6-a168-6921d1c6b6dc
+  - c1970a55-f33f-47d1-9a21-4183eb002324
+  rect:
+    serializedVersion: 2
+    x: 16
+    y: 387
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7573745712008390006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: b1bc165c-18e8-4ec6-a168-6921d1c6b6dc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Pues no s\xE9 muy bien que hacer."
+  children:
+  - 21d7c785-1c0c-400e-a1fd-93dbd52b35b4
+  rect:
+    serializedVersion: 2
+    x: 328
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4961213689592048656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: b87528a4-de97-450f-ab83-323a5db36e0d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Para ti es f\xE1cil. Solo tienes que pasear."
+  children:
+  - 75a4f8da-1672-49d0-93e7-279f825e3ff3
+  rect:
+    serializedVersion: 2
+    x: 1030
+    y: 499
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4476423738174532921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 179c27c9-bb17-43c7-939c-5cf3a6e16111
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Te entiendo. Pero no te olvides de trabajar. O pueden pasar cositas.
+  children:
+  - b87528a4-de97-450f-ab83-323a5db36e0d
+  - 3fee6577-4f30-48bb-93a9-aa94aac5f107
+  rect:
+    serializedVersion: 2
+    x: 659
+    y: 565
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3113235298043922942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 2fd60cca-6b25-4747-abab-84eab1d5b15d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "S\xED que lo es. Pero bueno, hay gente que est\xE1 peor. Ese monje se pasa
+    tooodo el d\xEDa delante del lago. Dice que le ilumina. Para m\xED no es m\xE1s
+    que agua estancada."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2129
+    y: 259
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2714572715787155218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 44b959b4-a84b-442d-b869-c5147377e9dd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Que triste.
+  children:
+  - 2fd60cca-6b25-4747-abab-84eab1d5b15d
+  rect:
+    serializedVersion: 2
+    x: 1879
+    y: 259
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2687820700467198952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 3fee6577-4f30-48bb-93a9-aa94aac5f107
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Te har\xE9 caso."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 915
+    y: 640
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1614784411265238833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 83552b0f-6a90-4ec7-877c-4dc09bcd8d23
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFQu\xE9 crees que es?"
+  children:
+  - a88faa62-6cb0-4695-b902-a36c929f941f
+  rect:
+    serializedVersion: 2
+    x: 1346
+    y: 43
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a78180006a5242b7504a1ca1ffd73, type: 3}
+  m_Name: Soldado2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7734313782363748603}
+  - {fileID: -7573745712008390006}
+  - {fileID: 3703259444057869818}
+  - {fileID: -4476423738174532921}
+  - {fileID: 6866131293607020461}
+  - {fileID: -8046501734294633572}
+  - {fileID: 8567786548403391882}
+  - {fileID: -9121743939748346000}
+  - {fileID: 8103104758670700409}
+  - {fileID: 933782484693940552}
+  - {fileID: 4967886632249687470}
+  - {fileID: -1614784411265238833}
+  - {fileID: 4594628647937693442}
+  - {fileID: 3972587707726389937}
+  - {fileID: 8316526332986929341}
+  - {fileID: -4961213689592048656}
+  - {fileID: -2687820700467198952}
+  - {fileID: -2714572715787155218}
+  - {fileID: 8609642737078875352}
+  - {fileID: -7777226143633973862}
+  - {fileID: -3113235298043922942}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &933782484693940552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 1754bd21-4122-4562-9545-f8f03ecdb6bb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "S\xED, es porque nos entrenan de peque\xF1os para tener el mismo tipo de
+    cuerpo."
+  children:
+  - 44b959b4-a84b-442d-b869-c5147377e9dd
+  - c8cb495f-59f3-4f4a-a85f-811f666d16bb
+  rect:
+    serializedVersion: 2
+    x: 1637
+    y: 333
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3703259444057869818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: c1970a55-f33f-47d1-9a21-4183eb002324
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Paseando, tranquilamente.
+  children:
+  - 179c27c9-bb17-43c7-939c-5cf3a6e16111
+  rect:
+    serializedVersion: 2
+    x: 352
+    y: 566
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3972587707726389937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: aec9b4e6-6c54-46e2-b73f-983bf610f415
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No me digas que crees en esas cosas.
+  children:
+  - 80407b26-e5ee-4eb2-a9d8-8224775c40ab
+  rect:
+    serializedVersion: 2
+    x: 1342
+    y: 144
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4594628647937693442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: a88faa62-6cb0-4695-b902-a36c929f941f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\xBFNunca te has sentido como que no tienes elecci\xF3n? Lo habl\xE9 con
+    el monje y me dej\xF3 tocado del ala."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1596
+    y: 42
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4967886632249687470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 14b00290-635d-4a4a-a059-df934c409d4b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No puedo. Hay algo superior que me lo prohibe. Es raro.
+  children:
+  - 83552b0f-6a90-4ec7-877c-4dc09bcd8d23
+  - aec9b4e6-6c54-46e2-b73f-983bf610f415
+  rect:
+    serializedVersion: 2
+    x: 1098
+    y: 42
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6866131293607020461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 21d7c785-1c0c-400e-a1fd-93dbd52b35b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Puedes probar a limpiar armas. Est\xE1n muy sucias. Joder, ojal\xE1 poderlas
+    limpiar yo."
+  children:
+  - ac69bbaa-30ac-49c5-9468-b68bbbf0f695
+  - 708f2cdb-2dca-4c3a-af9c-c95f55a25dd8
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: 200
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8103104758670700409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 035fa099-31c2-4199-8580-6fcae0d7ccf8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Eso te iba a decir, sois todos muy parecidos.
+  children:
+  - 1754bd21-4122-4562-9545-f8f03ecdb6bb
+  rect:
+    serializedVersion: 2
+    x: 1397
+    y: 341
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8316526332986929341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 80407b26-e5ee-4eb2-a9d8-8224775c40ab
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Ll\xE1malo dios, ll\xE1malo energ\xEDa. Pero algo hay. Habla con el monje,
+    creo que \xE9l te dar\xE1 respuestas."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1592
+    y: 144
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8567786548403391882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 708f2cdb-2dca-4c3a-af9c-c95f55a25dd8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Y te quejar\xE1s. Si solo deambulas de un lado para otro."
+  children:
+  - 75a4f8da-1672-49d0-93e7-279f825e3ff3
+  rect:
+    serializedVersion: 2
+    x: 845
+    y: 324
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8609642737078875352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: c8cb495f-59f3-4f4a-a85f-811f666d16bb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Siempre puedes decidir que hacer.
+  children:
+  - 91b55511-55a2-4522-a1c1-8fe386fc54a1
+  rect:
+    serializedVersion: 2
+    x: 1871
+    y: 406
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
