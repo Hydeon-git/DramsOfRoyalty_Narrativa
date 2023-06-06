@@ -1,5 +1,147 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8983731528627371596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: f9b9dade-e8ab-4a1c-8750-0adcfb50530f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Me alegro.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 803
+    y: 397
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8234420416104388311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: db437dd2-db46-4808-bd29-793e9341f12c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFTe traicion\xF3? \xBFTe fue infiel?"
+  children:
+  - 0fd12037-136c-41db-9527-d1dd2d2c0e24
+  rect:
+    serializedVersion: 2
+    x: 2255
+    y: 287
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7800884394639108573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 5ec1f76b-0e25-4378-b108-0f2343088a13
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Digamos que no puede ser castigado.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2996
+    y: 256
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6594424450015848712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: fdfb1607-fa84-4ead-8cb8-9c3acaf18fdd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFEn qui\xE9n confiaste? "
+  children:
+  - bdb3cbb7-6bde-46bb-b3ae-dcb78ef6945a
+  rect:
+    serializedVersion: 2
+    x: 1793
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3173346947884651265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: bc0e7491-7bff-4012-9a6c-cdb6ee81ff9d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFD\xF3nde se limpian?"
+  children:
+  - 5e097425-4352-4885-b61e-df3b463b57ef
+  rect:
+    serializedVersion: 2
+    x: 842
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3080754622974854221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 154444ff-0322-470c-96f1-4ca1f484ecd0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Est\xE1n sobrevaloradas. Confias en el amor y te llevas una pu\xF1alada."
+  children:
+  - fdfb1607-fa84-4ead-8cb8-9c3acaf18fdd
+  rect:
+    serializedVersion: 2
+    x: 1543
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &-2651529246426614909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,8 +155,10 @@ MonoBehaviour:
   m_Name: 84a33d5a-4993-4879-b920-a3ddb725f58f
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Cuida tu lenguaje.
-  children: []
+  text: Bien.
+  children:
+  - 6b91f4e8-32bf-4da1-8bcf-20a30c908148
+  - f9b9dade-e8ab-4a1c-8750-0adcfb50530f
   rect:
     serializedVersion: 2
     x: 562
@@ -23,6 +167,103 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: QuestCompletion
+--- !u!114 &-2589334620395538752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 0063c679-b9f2-4e7a-9ea7-63707efeb24b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFSe la devolviste?"
+  children:
+  - 5070a81d-2e5c-457f-a5fd-e7564e481739
+  rect:
+    serializedVersion: 2
+    x: 2745
+    y: 378
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2570375179823169378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 8ba8d13f-f5d4-42e0-acd9-40e667087983
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Vengaaa
+  children:
+  - 8729fbce-8255-4458-b227-42d958a5151b
+  rect:
+    serializedVersion: 2
+    x: 2248
+    y: 149
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2099810166790088491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: bdb3cbb7-6bde-46bb-b3ae-dcb78ef6945a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Es de este castillo. Le conoces, pero no puedo decirtelo.
+  children:
+  - 8ba8d13f-f5d4-42e0-acd9-40e667087983
+  - db437dd2-db46-4808-bd29-793e9341f12c
+  rect:
+    serializedVersion: 2
+    x: 2010
+    y: 200
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1927498442603299347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 887adbb1-6c7b-4b96-a94c-b11b495b2d6c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Relaciones humanas... Ya sabes.
+  children:
+  - 154444ff-0322-470c-96f1-4ca1f484ecd0
+  rect:
+    serializedVersion: 2
+    x: 1293
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &-520541499004669233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,13 +277,13 @@ MonoBehaviour:
   m_Name: 26d45e70-bc52-4cb9-97ec-1d6f17b01324
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: Que pasa tonto
+  text: "Hola, \xBFc\xF3mo est\xE1s?"
   children:
   - 84a33d5a-4993-4879-b920-a3ddb725f58f
   rect:
     serializedVersion: 2
-    x: 310
-    y: 252
+    x: 324
+    y: 261
     width: 200
     height: 100
   onEnterAction: 
@@ -65,7 +306,78 @@ MonoBehaviour:
   - {fileID: 743914166901459406}
   - {fileID: -2651529246426614909}
   - {fileID: 242811306106234304}
+  - {fileID: 9030013974958612222}
+  - {fileID: -8983731528627371596}
+  - {fileID: -3173346947884651265}
+  - {fileID: 2485331360839445954}
+  - {fileID: 7342233347131780278}
+  - {fileID: 8864328191307887041}
+  - {fileID: 6029094741597036868}
+  - {fileID: 4952155236865960195}
+  - {fileID: 5424492475550594565}
+  - {fileID: 55179473012576360}
+  - {fileID: -1927498442603299347}
+  - {fileID: 1519563244665154907}
+  - {fileID: -3080754622974854221}
+  - {fileID: -6594424450015848712}
+  - {fileID: -2099810166790088491}
+  - {fileID: -2570375179823169378}
+  - {fileID: 44445823517285191}
+  - {fileID: -8234420416104388311}
+  - {fileID: 8281442498188401481}
+  - {fileID: 5247429386131057761}
+  - {fileID: -7800884394639108573}
+  - {fileID: -2589334620395538752}
+  - {fileID: 5109296404258107738}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &44445823517285191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 8729fbce-8255-4458-b227-42d958a5151b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "De verdad que no puedo. Adi\xF3s."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2498
+    y: 149
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &55179473012576360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ad1bf37f-876f-4f4b-ae96-d2536dc39222
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\xBFPa' qu\xE9?"
+  children:
+  - 887adbb1-6c7b-4b96-a94c-b11b495b2d6c
+  - eb36ff8a-9279-4cd0-95bb-2a4843972377
+  rect:
+    serializedVersion: 2
+    x: 1043
+    y: 203
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &242811306106234304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,12 +391,14 @@ MonoBehaviour:
   m_Name: 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Puedes ir a cortar madera. Habla con el soldado terco.
-  children: []
+  text: Puedes ir a limpiar las armas.
+  children:
+  - bc0e7491-7bff-4012-9a6c-cdb6ee81ff9d
+  - 3251a822-0a1b-4f80-86c5-be1e0c6cc1c1
   rect:
     serializedVersion: 2
-    x: 587
-    y: 48
+    x: 596
+    y: 52
     width: 200
     height: 100
   onEnterAction: 
@@ -102,13 +416,226 @@ MonoBehaviour:
   m_Name: ada9de73-db47-4b13-9801-d969d5b8e0c1
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "Hola, \xBFqu\xE9 tal? \xBFQu\xE9 puedo hacer?"
+  text: "Hola, \xBFqu\xE9 tal? S\xE9 que tengo que trabajar. Pero no s\xE9 que hacer."
   children:
   - 51ce7ec7-b8ef-4feb-93c4-af90d27dd021
   rect:
     serializedVersion: 2
-    x: 335
-    y: 51
+    x: 343
+    y: 53
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1519563244665154907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: eb36ff8a-9279-4cd0-95bb-2a4843972377
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Pues tambi\xE9n es verdad."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1290
+    y: 304
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2485331360839445954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 5e097425-4352-4885-b61e-df3b463b57ef
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Llevas aqu\xED mucho tiempo. \xBFA\xFAn no lo sabes?"
+  children:
+  - e7439677-0d57-45c5-aff1-d848c63eaa2c
+  rect:
+    serializedVersion: 2
+    x: 1091
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4952155236865960195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 3251a822-0a1b-4f80-86c5-be1e0c6cc1c1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Vale, eso har\xE9. P\xE1salo bien."
+  children:
+  - 6f245f0e-0056-4b5b-9884-dbefde5027f7
+  rect:
+    serializedVersion: 2
+    x: 844
+    y: 101
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5109296404258107738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 5070a81d-2e5c-457f-a5fd-e7564e481739
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Soy un rom\xE1ntico. No pod\xEDa hacerle da\xF1o. Tampoco es que pudiera..."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2995
+    y: 378
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5247429386131057761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 7bc0e9bc-fa20-4888-a777-1589c02f5414
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Hostias. \xBFY no le castigaron?"
+  children:
+  - 5ec1f76b-0e25-4378-b108-0f2343088a13
+  rect:
+    serializedVersion: 2
+    x: 2746
+    y: 256
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5424492475550594565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 6f245f0e-0056-4b5b-9884-dbefde5027f7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Lo mismo digo.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1094
+    y: 101
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6029094741597036868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: cc2feed5-0ab8-4dd5-a541-30c07907f548
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Muchas gracias.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1840
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7342233347131780278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: e7439677-0d57-45c5-aff1-d848c63eaa2c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Tengo perdidas de memoria
+  children:
+  - a123baff-4c0b-4bf6-a1e2-ee76de64a74d
+  rect:
+    serializedVersion: 2
+    x: 1341
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8281442498188401481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 0fd12037-136c-41db-9527-d1dd2d2c0e24
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "No, literalmente me peg\xF3 una pu\xF1alada por la espalda."
+  children:
+  - 7bc0e9bc-fa20-4888-a777-1589c02f5414
+  - 0063c679-b9f2-4e7a-9ea7-63707efeb24b
+  rect:
+    serializedVersion: 2
+    x: 2505
+    y: 287
     width: 200
     height: 100
   onEnterAction: 
@@ -134,6 +661,55 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58
     y: 140
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8864328191307887041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: a123baff-4c0b-4bf6-a1e2-ee76de64a74d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Ah. Bueno, pues en una sala que hay armas. Seg\xFAn sales de tu habitaci\xF3n
+    la primera a la derecha. No tiene perdida."
+  children:
+  - cc2feed5-0ab8-4dd5-a541-30c07907f548
+  rect:
+    serializedVersion: 2
+    x: 1591
+    y: 10
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &9030013974958612222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 6b91f4e8-32bf-4da1-8bcf-20a30c908148
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "No hablas mucho, \xBFverdad?"
+  children:
+  - ad1bf37f-876f-4f4b-ae96-d2536dc39222
+  rect:
+    serializedVersion: 2
+    x: 793
+    y: 203
     width: 200
     height: 100
   onEnterAction: 
