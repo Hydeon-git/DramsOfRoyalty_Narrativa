@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "aqui va el texto del dialogo. increible la tecnolog\xEDa"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
-  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
+  m_sharedMaterial: {fileID: 7583673142407916364, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -529,8 +529,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next >
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
-  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
+  m_sharedMaterial: {fileID: 7583673142407916364, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -807,8 +807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: El nombre de quien habla.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
-  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
+  m_sharedMaterial: {fileID: 7583673142407916364, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
