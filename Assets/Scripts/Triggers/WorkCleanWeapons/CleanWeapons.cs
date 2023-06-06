@@ -9,10 +9,12 @@ public class CleanWeapons : MonoBehaviour
     [SerializeField] private GameObject workCleanWeaponsText;
     [SerializeField] private Animator animatorPlayer;
     private QuestCompletion _questCompletion;
+    private QuestList _questList;
     private bool hasCleanIt = false;
     private void Start()
     {
         _questCompletion = GetComponent<QuestCompletion>();
+        _questList = FindObjectOfType<QuestList>();
     }
 
 
@@ -52,7 +54,7 @@ public class CleanWeapons : MonoBehaviour
         yield return new WaitForSeconds(3f);
         animatorPlayer.SetBool("workCleanWeapons", false);
 
-        if (_questCompletion.quest)
+        if (_questList.HasQuest(_questCompletion.quest))
         {
             _questCompletion.CompleteObjective();
             StartCoroutine(WaitToLoadScene());
