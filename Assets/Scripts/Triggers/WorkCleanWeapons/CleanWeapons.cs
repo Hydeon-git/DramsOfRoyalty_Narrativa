@@ -36,8 +36,6 @@ public class CleanWeapons : MonoBehaviour
                 hasCleanIt = true;
                 animatorPlayer.SetBool("workCleanWeapons", true);
                 workCleanWeaponsText.SetActive(false);
-                _questCompletion.CompleteObjective();
-                
             }
         }
     }
@@ -53,5 +51,19 @@ public class CleanWeapons : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         animatorPlayer.SetBool("workCleanWeapons", false);
+
+        if (_questCompletion.quest)
+        {
+            _questCompletion.CompleteObjective();
+            StartCoroutine(WaitToLoadScene());
+        }
+        
+    }
+
+    IEnumerator WaitToLoadScene()
+    {
+        yield return new WaitForSeconds(3f);        
+        SceneManager.LoadScene("KingRoomBuena");
+
     }
 }

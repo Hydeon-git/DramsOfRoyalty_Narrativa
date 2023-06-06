@@ -10774,6 +10774,33 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7435271807308237987, guid: d736ae4ca1bb5894484fec0cc2a60d5d, type: 3}
   m_PrefabInstance: {fileID: 394404905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025262279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025262277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 746b392755586d84098abd01d092b04a, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0.08
+    y: 0.34
+    width: 0.66
+    height: 0.29
 --- !u!1 &2040013555
 GameObject:
   m_ObjectHideFlags: 0

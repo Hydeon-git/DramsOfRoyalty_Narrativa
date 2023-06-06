@@ -38,6 +38,11 @@ public class AIConversant : MonoBehaviour
                 pressToTalk.SetActive(false);
 
         }
+        if (SceneManager.GetActiveScene().name == "KingRoomBuena" && _startedDialogue == false)
+        {
+            _playerConversant.StartDialogue(this, dialogue);
+            _startedDialogue = true;
+        }
         if (SceneManager.GetActiveScene().name == "KingRoomMalo" && _startedDialogue == false)
         {
             _playerConversant.StartDialogue(this, dialogue);
