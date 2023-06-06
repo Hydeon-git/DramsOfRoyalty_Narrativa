@@ -1,5 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5991826038346957032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 9e3fb692-f394-4493-b433-2cc903804779
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\xA1Vaya panda de in\xFAtiles! Ve a la armer\xEDa a limpiar armas."
+  children:
+  - 0cec0fbb-3f59-4c29-a260-4523ab9ccf34
+  rect:
+    serializedVersion: 2
+    x: 557
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4981019028029469718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 8c5028ae-5bdc-4e44-bc43-3ff9dd45b5bf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Maldito mequetrefe... Esta justo bajando por el pasadizo de que da a los
+    dormitorios.
+  children:
+  - 26c11393-5140-4e78-8f25-b89c7e634829
+  rect:
+    serializedVersion: 2
+    x: 1051
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-644810686158651733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 0cec0fbb-3f59-4c29-a260-4523ab9ccf34
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFComo llego a la sala de armas?"
+  children:
+  - 8c5028ae-5bdc-4e44-bc43-3ff9dd45b5bf
+  rect:
+    serializedVersion: 2
+    x: 801
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,5 +86,207 @@ MonoBehaviour:
   m_Name: MayordomoJefe
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 0}
+  - {fileID: 3813765432419470107}
+  - {fileID: 9167489387789828024}
+  - {fileID: 2682707541771383673}
+  - {fileID: -5991826038346957032}
+  - {fileID: -644810686158651733}
+  - {fileID: -4981019028029469718}
+  - {fileID: 4760120694151469248}
+  - {fileID: 6468783818140829376}
+  - {fileID: 4479570717509043154}
+  - {fileID: 6634954006495424431}
+  - {fileID: 2950541167949305908}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2682707541771383673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 3f460871-42b7-4cdd-af26-286c160c0c44
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ahora mismo iba a realizar mis tareas, Mayordomo Jefe
+  children:
+  - 18d35dae-2585-4b32-9ab4-dcb4d087103d
+  rect:
+    serializedVersion: 2
+    x: 305
+    y: 376
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2950541167949305908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 099007c4-e0a5-416b-8ee3-6e584f0de00d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: A trabajar
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1548
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+--- !u!114 &3813765432419470107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: b2fb74b4-f118-47aa-afd6-8cf8ac935208
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\xBFQue haces que no estas trabajando?"
+  children:
+  - b2cfcea0-ca32-4f7d-b336-5ee187ac4ea2
+  - 3f460871-42b7-4cdd-af26-286c160c0c44
+  rect:
+    serializedVersion: 2
+    x: 68
+    y: 284
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4479570717509043154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: aa612306-7bd2-4176-8b1c-065995772200
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xBFHa habido muchas muertes \xFAltimamente?"
+  children:
+  - ceeda012-54d4-42d7-a2ab-890bff42c506
+  rect:
+    serializedVersion: 2
+    x: 798
+    y: 376
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4760120694151469248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 26c11393-5140-4e78-8f25-b89c7e634829
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\xA1Ahora mismo voy se\xF1or!"
+  children:
+  - 099007c4-e0a5-416b-8ee3-6e584f0de00d
+  rect:
+    serializedVersion: 2
+    x: 1302
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6468783818140829376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 18d35dae-2585-4b32-9ab4-dcb4d087103d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "M\xE1s vale que espabiles si quieres que el rey no te corte la cabeza..."
+  children:
+  - aa612306-7bd2-4176-8b1c-065995772200
+  rect:
+    serializedVersion: 2
+    x: 555
+    y: 376
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6634954006495424431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ceeda012-54d4-42d7-a2ab-890bff42c506
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Parece que eres nuevo por aqu\xED... Mejor no preguntes mucho si no quieres
+    acabar muy mal."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1048
+    y: 376
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &9167489387789828024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: b2cfcea0-ca32-4f7d-b336-5ee187ac4ea2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "No se me ha encomendado ninguna tarea a\xFAn, mi se\xF1or..."
+  children:
+  - 9e3fb692-f394-4493-b433-2cc903804779
+  rect:
+    serializedVersion: 2
+    x: 307
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
