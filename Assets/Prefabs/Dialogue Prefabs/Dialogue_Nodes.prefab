@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "aqui va el texto del dialogo. increible la tecnolog\xEDa"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f362a330978cc0145ab1b666d2d9cf9c, type: 2}
-  m_sharedMaterial: {fileID: 964811181493336601, guid: f362a330978cc0145ab1b666d2d9cf9c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -529,8 +529,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next >
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 43819e4f22d131f4dbbb5b88998e0ec8, type: 2}
-  m_sharedMaterial: {fileID: 3738985973239984217, guid: 43819e4f22d131f4dbbb5b88998e0ec8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -807,8 +807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: El nombre de quien habla.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 43819e4f22d131f4dbbb5b88998e0ec8, type: 2}
-  m_sharedMaterial: {fileID: 3738985973239984217, guid: 43819e4f22d131f4dbbb5b88998e0ec8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2411979e50b69084cac510d2ba281393, type: 2}
+  m_sharedMaterial: {fileID: 5912029423767934997, guid: 2411979e50b69084cac510d2ba281393, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

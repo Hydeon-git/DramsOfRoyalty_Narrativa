@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,13 @@ public class CleanWeapons : MonoBehaviour
 {
     [SerializeField] private GameObject workCleanWeaponsText;
     [SerializeField] private Animator animatorPlayer;
+    private QuestCompletion _questCompletion;
+    private bool hasCleanIt = false;
+    private void Start()
+    {
+        _questCompletion = GetComponent<QuestCompletion>();
+    }
+
 
     private void Update()
     {
@@ -21,12 +29,15 @@ public class CleanWeapons : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {            
-            if (Input.GetKey(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.F) && hasCleanIt == false)
             {
+                hasCleanIt = true;
                 animatorPlayer.SetBool("workCleanWeapons", true);
                 workCleanWeaponsText.SetActive(false);
+                _questCompletion.CompleteObjective();
+                
             }
         }
     }
