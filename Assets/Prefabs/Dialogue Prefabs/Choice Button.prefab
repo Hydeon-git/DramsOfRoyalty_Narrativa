@@ -217,8 +217,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Esta es la respuesta
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
-  m_sharedMaterial: {fileID: 7583673142407916364, guid: 91ac2079b38e9074cbaccbd1becfbfbe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e5f2e0f42238b8740850cc32e25102e7, type: 2}
+  m_sharedMaterial: {fileID: -6284495419704860489, guid: e5f2e0f42238b8740850cc32e25102e7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

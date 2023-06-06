@@ -19,6 +19,7 @@ public class CheckMissionCompleted : MonoBehaviour
         if (other.tag == "Player" && _questList.HasQuest(_questCompletion.quest))
         {
             _questCompletion.CompleteObjective();
+            gameObject.SetActive(false);
         }
     }
 }
