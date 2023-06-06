@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RPG.Dialogue;
+using UnityEngine.SceneManagement;
 using UnityEditor;
 
 public class AIConversant : MonoBehaviour
@@ -33,9 +34,16 @@ public class AIConversant : MonoBehaviour
         {
             _playerConversant.StartDialogue(this, dialogue);
             _startedDialogue = true;
-            pressToTalk.SetActive(false);
+            if(pressToTalk!=null)
+                pressToTalk.SetActive(false);
 
         }
+        if (SceneManager.GetActiveScene().name == "KingRoomMalo" && _startedDialogue == false)
+        {
+            _playerConversant.StartDialogue(this, dialogue);
+            _startedDialogue = true;
+        }
+        
 
         
     }
