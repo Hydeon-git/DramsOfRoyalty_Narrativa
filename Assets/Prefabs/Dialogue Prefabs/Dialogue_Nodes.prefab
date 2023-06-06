@@ -210,10 +210,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7435271807308237987}
   - component: {fileID: 8851982997593660033}
-  - component: {fileID: 7876774990193890432}
   - component: {fileID: 1724439708422146247}
   - component: {fileID: 2875183948654270178}
   - component: {fileID: 6857776022867400136}
+  - component: {fileID: 7399776261607979082}
   m_Layer: 5
   m_Name: Dialogue_Nodes
   m_TagString: Untagged
@@ -253,36 +253,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399557993210249087}
   m_CullTransparentMesh: 1
---- !u!114 &7876774990193890432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399557993210249087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &1724439708422146247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +312,33 @@ MonoBehaviour:
   choiceRoot: {fileID: 2877537442637535549}
   choicePrefab: {fileID: 3727209193282526284, guid: 17c8217de3fecd54e84a0b3cf843669c, type: 3}
   conversantName: {fileID: 8379952333637551852}
+--- !u!114 &7399776261607979082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399557993210249087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 746b392755586d84098abd01d092b04a, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0.08
+    y: 0.34
+    width: 0.66
+    height: 0.29
 --- !u!1 &1846685428816419236
 GameObject:
   m_ObjectHideFlags: 0

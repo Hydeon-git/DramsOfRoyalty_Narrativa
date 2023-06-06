@@ -87,7 +87,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 967901311490646491}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7606880248992946063}
   m_HandleRect: {fileID: 1790724659433273836}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -295,7 +295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -10.106094}
+  m_AnchoredPosition: {x: 0.000030517578, y: -19}
   m_SizeDelta: {x: 0.0001, y: -20.212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6817122264920256921
@@ -532,7 +532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000042024887}
+  m_AnchoredPosition: {x: 0, y: -0.000011291877}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5620841177150578363
@@ -726,7 +726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8283049822859091423}
   - component: {fileID: 1248522565453117960}
-  - component: {fileID: 3314949175632140729}
+  - component: {fileID: 2677417344730188557}
   m_Layer: 5
   m_Name: Quest List
   m_TagString: Untagged
@@ -763,7 +763,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7718393477324412522}
   m_CullTransparentMesh: 1
---- !u!114 &3314949175632140729
+--- !u!114 &2677417344730188557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7718393477324412522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -783,16 +783,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91e06464c16bc1d4da2b4d0ac0c5c211, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 1a417a27a0df8714394cb24b941287c8, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0.09
+    y: 0
+    width: 1
+    height: 1
 --- !u!1001 &2418530197956088562
 PrefabInstance:
   m_ObjectHideFlags: 0
