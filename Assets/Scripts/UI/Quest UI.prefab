@@ -251,7 +251,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7606880248992946063}
   m_HandleRect: {fileID: 1790724659433273836}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 1a417a27a0df8714394cb24b941287c8, type: 3}
+  m_Texture: {fileID: 2800000, guid: e227d37de0179f14da6ebf883786c7be, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0.09

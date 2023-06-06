@@ -14,11 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
   text: Me alegro.
-  children: []
+  children:
+  - 1a4c991c-4df0-49d3-ba6d-d0277c99fd31
   rect:
     serializedVersion: 2
     x: 803
     y: 397
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8645407994179645544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 4d0568e2-6d5c-4952-9d2d-0f75d85ab18a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: A ti
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2090
+    y: 10
     width: 200
     height: 100
   onEnterAction: 
@@ -90,6 +114,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1793
     y: 203
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4723652462395319805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 1a4c991c-4df0-49d3-ba6d-d0277c99fd31
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Adi\xF3s."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1053
+    y: 397
     width: 200
     height: 100
   onEnterAction: 
@@ -329,6 +376,8 @@ MonoBehaviour:
   - {fileID: -7800884394639108573}
   - {fileID: -2589334620395538752}
   - {fileID: 5109296404258107738}
+  - {fileID: -8645407994179645544}
+  - {fileID: -4723652462395319805}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &44445823517285191
 MonoBehaviour:
@@ -402,7 +451,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: GiveQuest
+  onExitAction: 
 --- !u!114 &743914166901459406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,7 +631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
   text: Muchas gracias.
-  children: []
+  children:
+  - 4d0568e2-6d5c-4952-9d2d-0f75d85ab18a
   rect:
     serializedVersion: 2
     x: 1840
@@ -590,7 +640,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: 
+  onExitAction: GiveQuest
 --- !u!114 &7342233347131780278
 MonoBehaviour:
   m_ObjectHideFlags: 0
