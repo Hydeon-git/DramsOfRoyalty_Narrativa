@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class QuestCompletion : MonoBehaviour
 {
-    [SerializeField] private Quest quest;
+    [SerializeField] public Quest quest;
 
     [SerializeField] private string objective;
 
