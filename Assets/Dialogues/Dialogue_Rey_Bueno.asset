@@ -13,36 +13,13 @@ MonoBehaviour:
   m_Name: 65b50a64-bee3-433a-af1b-f93dbe01f2cc
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: Gracias mi rey.
+  text: "As\xED es mi rey."
   children:
   - e1a2e020-45b5-405b-93b5-8f97d3d01236
   rect:
     serializedVersion: 2
     x: 955
     y: 242
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-5989684379859676657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 012d4a40-fede-4c71-be8c-f67acdbe1f6d
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: 
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 452
-    y: 362
     width: 200
     height: 100
   onEnterAction: 
@@ -84,8 +61,9 @@ MonoBehaviour:
   m_Name: e1a2e020-45b5-405b-93b5-8f97d3d01236
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Puedes retirarte.
-  children: []
+  text: "A partir de ahora seras el responsable de la limpieza de la armer\xEDa."
+  children:
+  - ad7000cd-b1dd-454e-b2ce-16fe68cfb060
   rect:
     serializedVersion: 2
     x: 1203
@@ -112,7 +90,8 @@ MonoBehaviour:
   - {fileID: 744002366050819063}
   - {fileID: -6958323149598799973}
   - {fileID: -535848845158854493}
-  - {fileID: -5989684379859676657}
+  - {fileID: 4640208769435248251}
+  - {fileID: 3950912004395069211}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &744002366050819063
 MonoBehaviour:
@@ -127,12 +106,13 @@ MonoBehaviour:
   m_Name: 48aea269-e519-4379-878c-5e039db8d16d
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "Perfecto, sigue as\xED."
+  text: El Mayordomo Jefe me ha comentado que te has ofrecido voluntario para limpiar
+    las armas.
   children:
   - 65b50a64-bee3-433a-af1b-f93dbe01f2cc
   rect:
     serializedVersion: 2
-    x: 698
+    x: 696
     y: 243
     width: 200
     height: 100
@@ -154,10 +134,56 @@ MonoBehaviour:
   text: "Hola, mi fiel servidor. \xBFC\xF3mo ha transcurrido la jornada?"
   children:
   - 6f2a92e2-1de7-4650-a5c5-097c39bd52ae
-  - 012d4a40-fede-4c71-be8c-f67acdbe1f6d
   rect:
     serializedVersion: 2
     x: 205
+    y: 242
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3950912004395069211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: e55c3101-377e-4a47-a329-0edb6932c330
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "M\xE1s te vale. Ahora puedes retirarte. Nos veremos a la proxima audiencia."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1703
+    y: 242
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4640208769435248251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ad7000cd-b1dd-454e-b2ce-16fe68cfb060
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Gracias por este honor mi rey. No le defraudar\xE9 mi majestad."
+  children:
+  - e55c3101-377e-4a47-a329-0edb6932c330
+  rect:
+    serializedVersion: 2
+    x: 1453
     y: 242
     width: 200
     height: 100

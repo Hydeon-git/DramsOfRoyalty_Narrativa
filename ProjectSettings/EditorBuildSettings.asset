@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KingRoomBuena.unity
     guid: 6d8755e35ae89af41a3eb09fb7d02814
+  - enabled: 1
+    path: Assets/Scenes/KingRoomMalo.unity
+    guid: 5b8b62963e0203744bb15bc05f87ae11
   m_configObjects: {}
