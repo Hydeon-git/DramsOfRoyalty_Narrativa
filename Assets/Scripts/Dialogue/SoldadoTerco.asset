@@ -212,12 +212,12 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 2092
-    y: 97
+    x: 2089
+    y: 98
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: BadEnd
+  onExitAction: CompleteQuest
 --- !u!114 &-3539252066934741975
 MonoBehaviour:
   m_ObjectHideFlags: 0

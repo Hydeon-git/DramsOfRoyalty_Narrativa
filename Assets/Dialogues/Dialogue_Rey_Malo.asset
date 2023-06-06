@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7310539794620019931
+--- !u!114 &-8998675491059755158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,118 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: ca846be0-a78d-409b-806d-23f00ab3592c
+  m_Name: 72f39ae4-ff33-4190-a0f6-fc742bb087ff
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Eres un mentiroso. Los soldados te han visto con un arma en el pasillo.
+  text: No me mientas. Sabes perfectamente porque estas aqui.
   children:
-  - 2efbdcb3-54fe-4ab5-bc57-8dc7461b17ff
-  - 23bdae48-5a86-436c-937e-ecb73fcf96b5
-  rect:
-    serializedVersion: 2
-    x: 512
-    y: 76
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-6788657561664235251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 5c1ab3d9-ccf0-40d7-88b3-2bab708eeef4
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: A Xayah
-  children:
-  - 6a8803b6-abd1-4b34-be53-abd722e637ac
-  rect:
-    serializedVersion: 2
-    x: 793
-    y: 328
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-4884001132180482247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 2efbdcb3-54fe-4ab5-bc57-8dc7461b17ff
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: "Perd\xF3n, me la habr\xE9 llevado sin querer."
-  children:
-  - 77d2661c-8ca6-4ac1-b86a-29daa34fcdba
-  rect:
-    serializedVersion: 2
-    x: 777
-    y: 0.0000038146973
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-3472533485801357681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: cbbf514c-43b5-4a3b-98f3-0a2132b1a471
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: Muchas gracias.
-  children:
-  - 3f90b21d-e3c2-4911-b2a5-f4f94779a83b
-  rect:
-    serializedVersion: 2
-    x: 761
-    y: 185
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-3443652728019773020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 0ba23744-3343-4241-a9a0-4d439542202c
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: "Lo s\xE9. Que me lo comuniques te honra."
-  children:
-  - cbbf514c-43b5-4a3b-98f3-0a2132b1a471
+  - 359f0896-b62d-4e93-bd23-fe8c3cfabd39
+  - b162fa96-1548-4bd1-ba36-88c5552809e3
   rect:
     serializedVersion: 2
     x: 511
-    y: 185
+    y: 178
     width: 200
     height: 100
   onEnterAction: 
   onExitAction: 
---- !u!114 &-1049238993794348999
+--- !u!114 &-7659251457548996942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,39 +35,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 6a8803b6-abd1-4b34-be53-abd722e637ac
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: "Ya ver\xE9 lo que hago. Ret\xEDrate."
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 1053
-    y: 391
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-11902526893657133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 23bdae48-5a86-436c-937e-ecb73fcf96b5
+  m_Name: 359f0896-b62d-4e93-bd23-fe8c3cfabd39
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "Eso es mentira. Est\xE1n todos en mi contra."
+  text: No tengo idea de lo que me esta diciendo majestad
   children:
-  - bb4a40f5-6cd2-4c9c-a66f-987aecaa2eab
+  - ef9db026-2409-41f5-b9c8-91a7f24baa88
   rect:
     serializedVersion: 2
-    x: 786
-    y: 98
+    x: 741
+    y: 178
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4535017077256247177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: 3b4a8bfb-1859-446f-ad7f-719a5f787fd8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yo no he dicho tal cosa majestad.
+  children:
+  - aae1947c-5e18-48f0-bffa-b4cf861fac3a
+  rect:
+    serializedVersion: 2
+    x: 1242
+    y: 178
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3479589407146657076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: b162fa96-1548-4bd1-ba36-88c5552809e3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Puedo explicarlo. Por favor mi se\xF1or!"
+  children:
+  - 7b8632f6-9353-4fac-8fb7-7ab2bef7a02c
+  rect:
+    serializedVersion: 2
+    x: 746
+    y: 294
     width: 200
     height: 100
   onEnterAction: 
@@ -183,21 +112,38 @@ MonoBehaviour:
   nodes:
   - {fileID: 1067454742602218575}
   - {fileID: 8840805175520992989}
-  - {fileID: 1473054163597284686}
-  - {fileID: 7535013168933879527}
-  - {fileID: 4266230015034218503}
-  - {fileID: -6788657561664235251}
-  - {fileID: 3717223082469400798}
-  - {fileID: -3443652728019773020}
-  - {fileID: -3472533485801357681}
-  - {fileID: 6292943612379510231}
-  - {fileID: -7310539794620019931}
-  - {fileID: -4884001132180482247}
-  - {fileID: -11902526893657133}
-  - {fileID: 1116329365833324523}
-  - {fileID: 4106263111968890810}
-  - {fileID: -1049238993794348999}
+  - {fileID: -8998675491059755158}
+  - {fileID: -7659251457548996942}
+  - {fileID: -3479589407146657076}
+  - {fileID: 708309407546767968}
+  - {fileID: 1347269856697658291}
+  - {fileID: -4535017077256247177}
+  - {fileID: 4545874547892908989}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &708309407546767968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
+  m_Name: ef9db026-2409-41f5-b9c8-91a7f24baa88
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Se te acusa de rebeli\xF3n. Has hablado con un guardia sobre esto."
+  children:
+  - 3b4a8bfb-1859-446f-ad7f-719a5f787fd8
+  rect:
+    serializedVersion: 2
+    x: 992
+    y: 178
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &1067454742602218575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,17 +160,15 @@ MonoBehaviour:
   text: "Hola, mi fiel servidor. \xBFC\xF3mo ha transcurrido la jornada?"
   children:
   - 9095121b-6d3b-4ac5-b8b4-bd6ef61c245c
-  - bd25318b-996f-4336-8506-b6f6c9a71826
-  - 1dc978d0-ba55-4227-a9ed-74c1316865ec
   rect:
     serializedVersion: 2
-    x: 5
-    y: 179
+    x: 24
+    y: 177
     width: 200
     height: 100
   onEnterAction: 
   onExitAction: 
---- !u!114 &1116329365833324523
+--- !u!114 &1347269856697658291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,21 +178,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: bb4a40f5-6cd2-4c9c-a66f-987aecaa2eab
+  m_Name: 7b8632f6-9353-4fac-8fb7-7ab2bef7a02c
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "Encima tienes la poca decencia de negarlo. La muerte es lo \xFAnico que
-    te espera."
+  text: "No me vengas con tonter\xEDas. Quedas acusado de traici\xF3n contra la corona.
+    CORTADLE LA CABEZA!"
   children: []
   rect:
     serializedVersion: 2
-    x: 1012
-    y: 98
+    x: 998
+    y: 294
     width: 200
     height: 100
   onEnterAction: 
   onExitAction: 
---- !u!114 &1473054163597284686
+--- !u!114 &4545874547892908989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,135 +202,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: bd25318b-996f-4336-8506-b6f6c9a71826
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: "La verdad es que hemos tenido alg\xFAn problemilla."
-  children:
-  - 0ba23744-3343-4241-a9a0-4d439542202c
-  rect:
-    serializedVersion: 2
-    x: 261
-    y: 185
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &3717223082469400798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: dee6f1d9-f469-4490-92bf-9b83381b3937
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: A Rakkan
-  children:
-  - 6a8803b6-abd1-4b34-be53-abd722e637ac
-  rect:
-    serializedVersion: 2
-    x: 792
-    y: 451
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &4106263111968890810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 77d2661c-8ca6-4ac1-b86a-29daa34fcdba
+  m_Name: aae1947c-5e18-48f0-bffa-b4cf861fac3a
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Es de sabios reconocer los errores. Puedes retirarte.
+  text: "No me vengas con tonter\xEDas. Quedas acusado de traici\xF3n contra la corona.
+    CORTADLE LA CABEZA!"
   children: []
   rect:
     serializedVersion: 2
-    x: 1026
-    y: 0.0000038146973
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &4266230015034218503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 761775e0-537d-4f0c-a194-cc45b3fbf799
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: "\xBFA qui\xE9n?"
-  children:
-  - 5c1ab3d9-ccf0-40d7-88b3-2bab708eeef4
-  - dee6f1d9-f469-4490-92bf-9b83381b3937
-  rect:
-    serializedVersion: 2
-    x: 501
-    y: 408
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &6292943612379510231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 3f90b21d-e3c2-4911-b2a5-f4f94779a83b
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: Puedes volver a tus aposentos.
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 1015
-    y: 193
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &7535013168933879527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e292454166aed2c409f96f77209f9e0c, type: 3}
-  m_Name: 1dc978d0-ba55-4227-a9ed-74c1316865ec
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: He visto a alguien planear algo en tu contra.
-  children:
-  - 761775e0-537d-4f0c-a194-cc45b3fbf799
-  rect:
-    serializedVersion: 2
-    x: 261
-    y: 302
+    x: 1492
+    y: 178
     width: 200
     height: 100
   onEnterAction: 
@@ -406,11 +231,11 @@ MonoBehaviour:
   isPlayerSpeaking: 1
   text: Muy bien, sin sobresaltos.
   children:
-  - ca846be0-a78d-409b-806d-23f00ab3592c
+  - 72f39ae4-ff33-4190-a0f6-fc742bb087ff
   rect:
     serializedVersion: 2
-    x: 262
-    y: 76
+    x: 261
+    y: 178
     width: 200
     height: 100
   onEnterAction: 
