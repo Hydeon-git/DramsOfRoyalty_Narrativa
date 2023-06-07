@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
     public float playerRotationSmoothTime;
     public CinemachineFreeLook cinemachineFreeLook;
-
+    public GameObject cinematicCam;
     private float turnSmoothVelocity;
 
     public bool _canMove = true;
@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         //para desbloquear el raton y poder contestar.
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            cinematicCam.SetActive(false);
             Cursor.lockState = CursorLockMode.Confined;
             cinemachineFreeLook.gameObject.SetActive(false);
             animator.SetBool("isMoving", false);
