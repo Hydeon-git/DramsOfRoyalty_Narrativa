@@ -2,6 +2,6 @@
 Projecte Narrativa Interactiva
 
 Controles:
-AWSD - Movimiento del personaje.
-Shift - Desbloqueo del ratón.
-Q - Abrir/Cerrar misiones.
+/n AWSD - Movimiento del personaje.
+/n Shift - Desbloqueo del ratón.
+/n Q - Abrir/Cerrar misiones.
